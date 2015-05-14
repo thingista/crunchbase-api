@@ -85,7 +85,7 @@ module Crunchbase
 
     def relationships
       %w[
-        competitors funding_rounds founders products acquisitions ipo attr_reader
+        competitors funding_rounds founders products acquisitions ipo acquired_by
       ]
     end
 
