@@ -13,6 +13,7 @@ module Crunchbase
     attr_reader :disposition_of_acquired
     attr_reader :created_at
     attr_reader :updated_at
+    attr_reader :price_usd
 
     attr_reader :acquirer
     attr_reader :acquiree
@@ -25,7 +26,7 @@ module Crunchbase
 
     def property_keys
       %w[
-        name permalink acquisition_type price price_currency_code announced_on disposition_of_acquired created_at updated_at
+        name permalink acquisition_type price price_currency_code announced_on disposition_of_acquired created_at updated_at price_usd
       ]
     end
 
